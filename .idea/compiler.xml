@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="cloud-config-client" />
         <module name="cloud-config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-config-client" target="1.8" />
       <module name="cloud-config-server" target="1.8" />
       <module name="spring-cloud-simple" target="1.8" />
     </bytecodeTargetLevel>

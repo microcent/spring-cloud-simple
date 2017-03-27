@@ -5,7 +5,21 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
- * Created by Administrator on 2017/3/27.
+ * 通过@EnableConfigServer注解激活配置服务.
+ * 说明：
+ * 在application.yml中有个git.uri的配置，目前配置的是https://github.com/microcent/spring-cloud-simple/
+ * 获取git上的资源信息遵循如下规则：
+ * /{application}/{profile}[/{label}]
+ * /{application}-{profile}.yml
+ * /{label}/{application}-{profile}.yml
+ * /{application}-{profile}.properties
+ * /{label}/{application}-{profile}.properties
+ * 例如本例：可使用以下路径来访问config-client-dev.properties：
+ * http://localhost:8040/config-client-dev.properties
+ * http://localhost:8040/config-client/dev
+ * ...
+ *
+ * @author microcent
  */
 @SpringBootApplication
 @EnableConfigServer
