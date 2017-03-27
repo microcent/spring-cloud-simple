@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-config-client/cloud-config-client.iml" filepath="$PROJECT_DIR$/cloud-config-client/cloud-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" filepath="$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-discovery/cloud-eureka-discovery.iml" filepath="$PROJECT_DIR$/cloud-eureka-discovery/cloud-eureka-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-monitor-server/cloud-monitor-server.iml" filepath="$PROJECT_DIR$/cloud-monitor-server/cloud-monitor-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-simple.iml" filepath="$PROJECT_DIR$/spring-cloud-simple.iml" />
     </modules>
   </component>

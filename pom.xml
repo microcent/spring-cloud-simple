@@ -9,6 +9,7 @@
         <module>cloud-config-server</module>
         <module>cloud-config-client</module>
         <module>cloud-eureka-discovery</module>
+        <module>cloud-monitor-server</module>
     </modules>
     <packaging>pom</packaging>
 

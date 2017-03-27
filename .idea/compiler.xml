@@ -25,12 +25,14 @@
         <module name="cloud-config-client" />
         <module name="cloud-config-server" />
         <module name="cloud-eureka-discovery" />
+        <module name="cloud-monitor-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-config-client" target="1.8" />
       <module name="cloud-config-server" target="1.8" />
       <module name="cloud-eureka-discovery" target="1.8" />
+      <module name="cloud-monitor-server" target="1.8" />
       <module name="spring-cloud-simple" target="1.8" />
     </bytecodeTargetLevel>
   </component>
